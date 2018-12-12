@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/dnn_digits.py /autograder/source/dnn_digits.py
+cp /autograder/submission/dnn_pacman.py /autograder/source/dnn_pacman.py
+cp /autograder/submission/dnn.py        /autograder/source/dnn.py
+
+cp /autograder/submission/digits.model  /autograder/source/digits.model
+cp /autograder/submission/pacman.model  /autograder/source/pacman.model
+
+
+cd /autograder/source
+
+python autograder.py
+
+cp /autograder/source/gradescope_response.json /autograder/results/results.json

@@ -1,0 +1,11 @@
+class: "GradeClassifierTest"
+classifierModule: "dnn_pacman"
+classifierClass: "DeepPacmanClassifier"
+
+max_iterations: "15"
+
+datasetName: "contestData"
+
+exactOutput: "False"
+accuracyScale: "1"
+accuracyThresholds: "80 85"

@@ -1,0 +1,7 @@
+class: "GradeModelTest"
+datasetName: "digitData"
+
+load_model: "digits.model"
+
+accuracyScale: "1"
+accuracyThresholds: "85 90"

@@ -1,0 +1,7 @@
+class: "GradeModelTest"
+datasetName: "contestData"
+
+load_model: "pacman.model"
+
+accuracyScale: "1"
+accuracyThresholds: "85 90"

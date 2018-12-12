@@ -1,0 +1,11 @@
+class: "GradeClassifierTest"
+classifierModule: "dnn_digits"
+classifierClass: "DeepDigitClassifier"
+
+max_iterations: "15"
+
+datasetName: "digitData"
+
+exactOutput: "False"
+accuracyScale: "1"
+accuracyThresholds: "85 90"
